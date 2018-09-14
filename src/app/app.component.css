@@ -1,0 +1,47 @@
+
+.navbar {
+    margin-bottom: 0;
+    background-color: lightslategray;
+    z-index: 9999;
+    border: 0;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+   
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+    text-align: inherit;
+
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    color: #ffffff;
+    height: 50em;
+    text-shadow: 0.65px 0.45px 0.25px #000000;
+    background-image: url("https://images.pexels.com/photos/34650/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position: 0% 30%;
+  }
+
+#slogan{
+
+  font-weight: bold;
+  font-family:   'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
